@@ -83,7 +83,7 @@
                     <div class=" no-gutter ">
                         <div class="col-lg-8 col-lg-offset-2 col-sm-12">
                             <h2 class="step-title" id="step-<?php echo $stepNo+1; ?>">
-                                <img src="img/<?php echo $stepNo+1; ?>.jpg" class="step-image" alt="">
+                                <img src="img/<?php echo $stepNo+1; ?>.png" class="step-image" width="100" alt="">
                                 <a href="#step-<?php echo $stepNo+1; ?>"><?php echo $step[ 'title' ]; ?></a>
                             </h2>
                             <hr class="full"/>

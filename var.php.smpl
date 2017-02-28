@@ -1,7 +1,7 @@
 <?php
 
-$title = 'Arduino Unleash Path';
-$topTitle = 'Arduino<br/>Unleash Path';
+$title = 'PHP Unleash Path';
+$topTitle = 'PHP<br/>Unleash Path';
 $topContent = '
 We are committed to accelerating developers\' growth.
 <br/><br/>
@@ -9,150 +9,172 @@ One of the ways of acquiring new knowledge and skills<br/>
 is taking a Path to unleashing one\'s potential.
 ';
 
-$introduceTitle = 'Arduino';
-$introduceContent = 'Arduino is more than an open tool for making, tinkering, and exploring physical and digital interaction, this is an entire ecosystem supporting students, developers and passionates across all disciplines with theirs electronic projects. In this Unleash Path I want to present my point of view on prototyping electronic tools, toys and equipments. This is probably not the best tutorial and does not cover all related topics, but in my opinion, it will give you solid fundamental knowledge of Arduino’s ecosystem.';
+$introduceTitle = 'PHP';
+$introduceContent = 'PHP is currently one of the most popular backend language for web application. PHP is experiencing during last years an incredible quality boost, so it is well suited for professionals, and it is also easy to start for beginners.';
 
 $googleAnaliticsCode = "
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-xxxxxxx-xx', 'auto');
-  ga('send', 'pageview');
-
-</script>
 ";
 
 $steps = [
-	[
-		'title' => 'Arduino Novice',
-		'inside_steps' => [
-			'results' => [
-				'title' => 'Result',
-				'elements' => [
-					'You will learn the Arduino’s and C/C++ basics, get familiar with Arduino IDE and how to distinguish the boards. After this part you should be able to run full environment with programming IDE and connect your Arduino board to your computer to start working on own projects.',
-				]
-			],
-			'resources' => [
-				'title' => 'Resources to read and learn',
-				'elements' => [
-					'Arduino boards (Uno, Mega, Due, Zero, Family), breadboard, jumper wires' => 'http://www.makeuseof.com/tag/whats-included-arduino-starter-kit-makeuseof-explains/',
-					'C++ basic programming skills' => 'https://startingelectronics.org/software/arduino/learn-to-program-course/',
-					'Arduino IDE' => 'https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-0',
-					'Arduino foundations' => 'https://www.arduino.cc/en/Tutorial/Foundations',
-				]
-			],
-			'exercise' => [
-				'title' => 'Exercise',
-				'elements' => [
-					'Install Arduino IDE, write and upload into Arduino’s board a simple application which will log a message “Hello World” in the IDE’s console.'
-				]
-			]
-		]
-	],
-	[
-		'title' => 'Arduino Apprentice (Prototyping)',
-		'inside_steps' => [
-			'results' => [
-				'title' => 'Result',
-				'elements' => [
-					'You will be able to create a simple electronic prototype with an Arduino board and manage outcome communication with simple logic using LEDs.',
-				]
-			],
-			'resources' => [
-				'title' => 'Resources to read and learn',
-				'elements' => [
-					'Using the digital output and input pins with simple button and LED ' => 'http://www.ladyada.net/learn/arduino/lesson1.html',
-					'All about LEDs' => 'https://learn.adafruit.com/all-about-leds',
-					'Analog Inputs' => 'https://learn.adafruit.com/adafruit-arduino-lesson-8-analog-inputs',
-					'Sensing Light' => 'https://learn.adafruit.com/adafruit-arduino-lesson-9-sensing-light',
-				]
-			],
-			'exercise' => [
-				'title' => 'Exercise',
-				'elements' => [
-					'Create a simple traffic light controller with three LED lights - green, orange and red.' => 'http://www.makeuseof.com/tag/arduino-traffic-light-controller/'
-				]
-			]
-		]
-	],
-	[
-		'title' => 'Arduino Adept',
-		'inside_steps' => [
-			'results' => [
-				'title' => 'Result',
-				'elements' => [
-					'This will be your first bigger exercise. The goal is to learn how to use external sensors and fluently communicate with them, how to connect with external boards and manage motors.'
-				]
-			],
-			'resources' => [
-				'title' => 'Resources to read and learn',
-				'elements' => [
-					'Arduino external sensors' => 'https://www.arduino.cc/en/Tutorial/BuiltInExamples',
-					'Crash sensors ' => 'https://www.dfrobot.com/wiki/index.php/Crash_Sensor_(SKU:_SEN0138)',
-					'Ultrasonic range detector ' => 'http://www.instructables.com/id/Ultrasonic-Range-detector-using-Arduino-and-the-SR/',
-					'How to use motors ' => 'https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors',
-				]
-			],
-			'exercise' => [
-				'title' => 'Exercise',
-				'elements' => [
-					'Build a self-driving robot with crash sensors at the back and 1 long range ultrasonic sensor. Robot should avoid all obstacles on the route and change path automatically if necessary. ' => 'https://www.hackster.io/29284/ble-bot-9000-c150b8?ref=channel&ref_id=424_trending___&offset=41',
-				]
-			]
-		]
-	],
-	[
-		'title' => 'Arduino Expert',
-		'inside_steps' => [
-			'results' => [
-				'title' => 'Result',
-				'elements' => [
-					'After this part you would be able to connect your electronic prototype to the Internet by one of three different channels, parse and present delivered data. '
-				]
-			],
-			'resources' => [
-				'title' => 'Resources to read and learn',
-				'elements' => [
-					'Communication through wi-fi' => 'https://www.arduino.cc/en/Guide/ArduinoWiFiShield',
-					'GSM Communicatio' => 'https://www.arduino.cc/en/Guide/ArduinoGSMShieldV2',
-					'Ethernet communication ' => 'http://tronixstuff.com/2013/12/06/arduino-tutorials-chapter-16-ethernet/',
-					'Data Graph Processing' => 'https://www.arduino.cc/en/Tutorial/Graph',
-				]
-			],
-			'exercise' => [
-				'title' => 'Exercise',
-				'elements' => [
-					'Upgrade your self-driving robot to send current position to the server and draw the route on your device. ' => 'https://www.hackster.io/team-oblu/robot-for-supercool-indoor-navigation-95047f?ref=channel&ref_id=424_trending___&offset=80',
-				]
-			]
-		]
-	],
-	[
-		'title' => 'Arduino Master',
-		'inside_steps' => [
-			'results' => [
-				'title' => 'Result',
-				'elements' => [
-					'Arduino is a perfect and flexible solution for prototyping. But most of prototypes expected to be evolve into a product. After the final part you should know how to create a permanent PCB board and release a ready product.'
-				]
-			],
-			'resources' => [
-				'title' => 'Resources to read and learn',
-				'elements' => [
-					'Arduino on Proto Board ' => 'https://www.youtube.com/watch?v=vMu1UjBxOiQ&index=28&list=LLdRSsgwDIEmUxerxAXwhBgA',
-					'Download ExpressPCB' => 'https://www.expresspcb.com/',
-					'Create PCB ' => 'https://aaroneiche.com/2010/06/24/a-beginners-guide-to-making-an-arduino-shield-pcb/',
-				]
-			],
-			'exercise' => [
-				'title' => 'Exercise',
-				'elements' => [
-					'Create a blueprint of a minimal size PCB board of your self-driving robot in the ExpressPCB application.',
-				]
-			]
-		]
-	]
+    [
+        'title' => 'PHP Novice',
+        'inside_steps' => [
+            'results' => [
+                'title' => 'Result',
+                'elements' => [
+                    'Install PHP on your OS',
+                    'Write you first PHP script, it can be another "Hello world" app',
+                    'Get familiar with php runtime possibilities (cli, php built-in server, apache, nginx etc.)',
+                    'As PHP is most popular web language you should start to learn HTML5.',
+                ],
+            ],
+            'resources' => [
+                'title' => 'Resources to read and learn',
+                'elements' => [
+                    'Hello world in PHP' => 'http://php.net/manual/en/tutorial.firstpage.php',
+                    'Get the basics with free video tutorials' => 'https://www.youtube.com/playlist?list=PLfdtiltiRHWHjTPiFDRdTOPtSyYfz3iLW',
+                    'Learn some basic HTML' => 'https://www.w3schools.com/html/html5_intro.asp',
+                    'Should I learn php?' => 'https://www.phproundtable.com/episode/why-im-afraid-to-admit-im-a-php-programmer',
+                ],
+            ],
+            'exercise' => [
+                'title' => 'Exercise',
+                'elements' => [
+                    'Write your first script in any text editor and run it in CLI with php executable',
+                    'Play with this file with other runtime engines (apache, php built-in server, nginx)',
+                    'Run you welcome page with HTML layout filled with welcome message from php',
+                ],
+            ],
+        ],
+    ],
+    [
+        'title' => 'PHP Apprentice ',
+        'inside_steps' => [
+            'results' => [
+                'title' => 'Result',
+                'elements' => [
+                    'Create php program, with basic understanding of the core PHP features',
+                ],
+            ],
+            'resources' => [
+                'title' => 'Resources to read and learn',
+                'elements' => [
+                    'Baking cycle for PHP cookies' => 'https://www.sitepoint.com/baking-cookies-in-php/',
+                    'Working with PHP sessions' => 'https://www.sitepoint.com/php-sessions/',
+                    'Upload files with PHP' => 'https://www.sitepoint.com/file-uploads-with-php/',
+                    'PHP manual' => '',
+                ],
+            ],
+            'exercise' => [
+                'title' => 'Exercise',
+                'elements' => [
+                    'Send and handle data through get and post properties',
+                    'Store data between request, try to send some messages between two request',
+                    'Upload your first file, and make error handling',
+                ],
+            ],
+        ],
+    ],
+    [
+        'title' => 'PHP Adept',
+        'inside_steps' => [
+            'results' => [
+                'title' => 'Result',
+                'elements' => [
+                    'Save and load data from external storage mechanism (like MySql, Firebase, MongoDB or any other)',
+                    'Protect you scripts from XSS',
+                    'Write clean and understandable code',
+                    'Test your code with unit tests',
+                    'Learn SOLID principles',
+                    'Dive into gang of four design patterns',
+                ],
+            ],
+            'resources' => [
+                'title' => 'Resources to read and learn',
+                'elements' => [
+                    "Mysql tutorial [video]" => "https://www.udemy.com/php-mysql-tutorial/",
+                    "Protect yourself from XSS" => 'https://www.sitepoint.com/php-security-cross-site-scripting-attacks-xss/',
+                    "Design Patterns [recommended]" => 'http://shop.oreilly.com/product/9780596007126.do',
+                    "Gang of Four" => 'https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612',
+                    'Best practices for PHP' => 'http://www.phptherightway.com/',
+                    'SOLID principles' => 'https://code.tutsplus.com/series/the-solid-principles--cms-634',
+                    'PHP Unit' => 'https://phpunit.de/',
+                    'PHPSpec' => 'http://www.phpspec.net/en/stable/manual/introduction.html',
+                ],
+            ],
+            'exercise' => [
+                'title' => 'Exercise',
+                'elements' => [
+                    "Create application with login possibilities, and user credentials. Implement also administration area for restricted only for admins.",
+                ],
+            ],
+        ],
+    ],
+    [
+        'title' => 'PHP Expert',
+        'inside_steps' => [
+            'results' => [
+                'title' => 'Result',
+                'elements' => [
+                    'Write behaviour tests',
+                    'Follow the TDD principle',
+                    'Get the knowledge about good project architecture',
+                    'Use caching and reverse proxy engines',
+                    'Learn how to use at least one framework',
+                    'Experiment with stateless RestFull API\'s',
+                ],
+            ],
+            'resources' => [
+                'title' => 'Resources to read and learn',
+                'elements' => [
+                    'Behat tests' => 'http://behat.org/en/latest/user_guide.html',
+                    'Own framework by example' => 'https://symfony.com/doc/current/create_framework/index.html',
+                    'Domain Driven Design in PHP' => 'https://leanpub.com/ddd-in-php',
+                    'Clean architecture' => 'https://leanpub.com/cleanphp',
+                    'CQRS and Event Sourcing' => 'https://www.youtube.com/watch?v=zujuOE_tiwc',
+                ],
+            ],
+            'exercise' => [
+                'title' => 'Exercise',
+                'elements' => [
+                    'Create you own framework',
+                ],
+            ],
+        ],
+    ],
+    [
+        'title' => 'PHP Master',
+        'inside_steps' => [
+            'results' => [
+                'title' => 'Result',
+                'elements' => [
+                    'You should be able fluently, judge what best practicies to choose for each element of your project you should be able to know clean architecture, hexagonal architecture, event based system, RestFull applications, DDD, event sourcing, CQRS, queue systems, data caching and all good design patterns.',
+                    'Get specific knowledge about the HTTP protocol itself',
+                    'Make PHP asynchronous',
+                ],
+            ],
+            'resources' => [
+                'title' => 'Resources to read and learn',
+                'elements' => [
+                    'Best practicies' => 'https://www.martinfowler.com/',
+                    'Enterprise application architecture' => 'https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420',
+                    'The blue book' => 'https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215',
+                    'HTTP/1 RFC' => 'https://tools.ietf.org/search/rfc1945',
+                    'HTTP/2 RFC' => 'https://tools.ietf.org/html/rfc7540',
+                    'Asynchronous multitasking' => 'https://speakerdeck.com/dzuelke/your-next-web-server-will-be-written-in-dot-dot-dot-php',
+                ],
+            ],
+            'exercise' => [
+                'title' => 'Exercise',
+                'elements' => [
+                    'Write you own applications, that will be useful for you',
+                    'Use from start to finish, all you knowledge as best as you can. Focus on quality.',
+                    'Follow the TDD approach, try to specify your requirements first (behat), and go deeper with unit test (phpSpec or phpUnit), and just after than implement your code.',
+                    'Implement your code following Domain Model for your application, try recognize elements where to put much effort and where this effort will not pay of on design.',
+                    'As this is example project try to use all learned techniques and pick the best for special cases.',
+                    'Make all you, shared resources load only one time for all requests, create you own asynchronous application.',
+                ],
+            ],
+        ],
+    ],
 ];
