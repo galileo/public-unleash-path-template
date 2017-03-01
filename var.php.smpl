@@ -121,6 +121,7 @@ $steps = [
                     'Get the knowledge about good project architecture',
                     'Use caching and reverse proxy engines',
                     'Learn how to use at least one framework',
+                    'Build components that can work across all applications',
                     'Experiment with stateless RestFull API\'s',
                 ],
             ],
@@ -132,6 +133,7 @@ $steps = [
                     'Domain Driven Design in PHP' => 'https://leanpub.com/ddd-in-php',
                     'Clean architecture' => 'https://leanpub.com/cleanphp',
                     'CQRS and Event Sourcing' => 'https://www.youtube.com/watch?v=zujuOE_tiwc',
+                    'Make your code follow best practices' => 'http://www.php-fig.org/',
                 ],
             ],
             'exercise' => [
